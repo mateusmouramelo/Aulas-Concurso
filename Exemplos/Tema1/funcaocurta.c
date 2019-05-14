@@ -3,9 +3,7 @@
 /* A função abaixo recebe um inteiro x e retorna um valor real x/2 */
 float f (int x){
 	
-	float fx = x / 2.0;
-	
-	return fx;
+	return x / 2.0;
 }
 
 int main (void){

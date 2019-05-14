@@ -20,6 +20,4 @@ void main(){
 	print_binario(10);
 	printf("\n");
 	print_binario(1000);
-	printf("\n");
-	print_binario(INT_MAX);
 }

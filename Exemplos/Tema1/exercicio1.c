@@ -1,12 +1,7 @@
 #include <stdio.h>
 
 /* A função abaixo recebe 3 valores a, b, c e retorna a média (a+b+c)/3 */
-float media_1(float a, float b, float c){
-	
-	return (a + b + c) / 3;
-}
-
-float media_2(float a, float b, float c){
+float media(float a, float b, float c){
 	
 	float media = (a + b + c) / 3;
 	

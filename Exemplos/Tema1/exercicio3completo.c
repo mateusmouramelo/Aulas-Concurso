@@ -4,7 +4,7 @@
 /* A função abaixo recebe 3 inteiros a, b, c e dois ponteiros reais x_1 e x_2
  * Resolve a equação ax^2+bx+c=0.
  * Se impossível retorna 0, e se possível armazena os valores de x_1 e x_2 e retorna 1*/
-int bhaskara(int a, int b, int c, float *x_1, float *x_2){
+int bhaskara(float a, float b, float c, float *x_1, float *x_2){
 	
 	float delta = pow(b, 2) - 4 * a * c;
 	
