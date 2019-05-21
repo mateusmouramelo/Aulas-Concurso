@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 /* A função abaixo recebe 3 valores a, b, c e retorna a média (a+b+c)/3 */
-float media(float a, float b, float c){
-	
-	float media = (a + b + c) / 3;
-	
-	return media;
+float media(float v[], int tam){
+	int i;
+	float soma = 0;
+	for(i = 0; i < tam; i++)
+		soma = soma + v[i];
+	return soma/tam;
 }
 
 void main(){
-	printf("%g", media(0, 10, -5));
+	float v[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+	printf("%g", media(v, 10));
 }

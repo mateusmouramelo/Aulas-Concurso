@@ -9,6 +9,5 @@ float f (int x){
 int main (void){
 	int x = 5;
 	float y = f(x);
-	printf("f(%d) = ", x);
-	printf("%g", y);
+	printf("f(%d) = %g", x, y);
 }

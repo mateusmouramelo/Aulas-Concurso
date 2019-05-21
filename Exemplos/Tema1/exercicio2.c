@@ -11,13 +11,6 @@ void print_binario(int x){
 }
 
 void main(){
-	print_binario(0);
+	print_binario(13);
 	printf("\n");
-	print_binario(1);
-	printf("\n");
-	print_binario(3);
-	printf("\n");
-	print_binario(10);
-	printf("\n");
-	print_binario(1000);
 }
